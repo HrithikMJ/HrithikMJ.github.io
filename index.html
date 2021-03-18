@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/link--v2.png">
+	<title>Hrithik❤️</title>
+</head>
+
+<body>
+	
+<div class="title">
+	<h2>
+	
+		Hrithik MJ <br>here!!
+
+	</h2>
+</div>
+<button onclick="myFunction()" class="dropbtn"><i class="fas fa-globe" onclick="myFunction()" ></i></button>
+<div id="head-soc" class="content">
+<ul>
+<li id="git"><a href=https://github.com/HrithikMJ target="_blank" class="btn w"><i class="fab fa-github"></i></a></li>
+<li id="ins"><a href=https://www.instagram.com/4872697468696b/ target="_blank" class="btn a"><i class="fab fa-instagram"></i></a></li>
+<li id="mail"><a href=mailto:hrithikmj003@gmail.com target="_blank" class="btn s"><i class="fas fa-at"></i></a></li>
+<li id="twit"><a href=https://twitter.com/hrithikmj69 target="_blank" class="btn d"><i class="fab fa-twitter"></i></a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+	function myFunction() {
+  	document.getElementById("head-soc").classList.toggle("show");
+   }
+   
+   window.onclick = function(event) {
+  	if (!event.target.matches('.dropbtn')) {
+    	var dropdowns = document.getElementsByClassName("content");
+    	var i;
+    	for (i = 0; i < dropdowns.length; i++) {
+      		var openDropdown = dropdowns[i];
+      		if (openDropdown.classList.contains('show')) {
+        	openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.3.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
