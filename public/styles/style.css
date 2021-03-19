@@ -1,13 +1,14 @@
+
 *
 body,h2{
   font-family: 'Poppins';
   background: linear-gradient(135deg, rgba(24,23,23,1) 18%, rgba(0,0,0,1) 60%, rgba(0,12,19,1) 96%);
   display: flex;
   background-size: 150% 150%;
-  -webkit-animation: move 4s ease-in-out infinite;
+  -webkit-animation: move 3s ease-in-out infinite;
 }
 
-h2{
+#heading{
 	position: absolute;
 	font-family: 'Bungee Shade', cursive;
 	color: rgb(245, 71, 195);
@@ -21,13 +22,31 @@ h2{
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   }
-h2:hover,h2:focus{
-	background-size: 300% 300%;
+#heading:hover,#heading:focus{
+	background-size: 150% 150%;
 	cursor: pointer;
 	transform: scale(1.2);
-	-webkit-animation: move 4s ease-in-out infinite;
+	-webkit-animation: move 3s ease-in-out infinite;
   	transition: 500ms;
 	}
+#para{
+	position: absolute;
+	font-family: 'Bungee Shade', cursive;
+	color: rgb(245, 71, 195);
+	font-size: 400%;
+	align-content: center;
+	justify-content: center;
+	margin-top: 10%;
+	margin-left: 5%;  
+	background-color: #FF3CAC;
+	background: -webkit-linear-gradient(225deg, #FF3CAC , #784BA0, #2B86C5 );
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	background-size: 150% 150%;
+	-webkit-animation: move 2.5s ease-in-out infinite;
+  	transition: 500ms;
+
+}	
 @-webkit-keyframes move {
 	0% {
 		background-position: 0% 50%;
@@ -104,7 +123,7 @@ margin: 5px 0;
 .btn:hover,.btn:focus{
 	cursor: pointer;
 	background-size: 300% 300%;
-	-webkit-animation: move 4s ease-in-out infinite;
+	-webkit-animation: move 3s ease-in-out infinite;
   	transition: 500ms;
 }
 
@@ -168,11 +187,11 @@ margin: 5px 0;
 	  -webkit-animation: move 4s ease-in-out infinite;
 	}
     
-    h2 {
-      font-size: 300%;
+    #heading,#para {
+      font-size: 200%;
     }
     
-    h2:hover{
+    #heading:hover,#heading:focus{
     	transform: scale(1.1);
     }
 

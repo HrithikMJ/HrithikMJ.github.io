@@ -20,23 +20,30 @@
 }
 function res(a){
   if (a =='Instagram'){
-    
-    document.getElementById("heading").innerHTML="Check <br> out my  <br> instagram!!";
+    document.getElementById("heading").innerHTML=""; 
+    document.getElementById("para").innerHTML="Check <br> out my  <br> instagram!!";
   }
   else if (a== 'GitHub') {
-    document.getElementById("heading").innerHTML="Check <br>out my  <br> Github!!";
+    document.getElementById("heading").innerHTML=""; 
+    document.getElementById("para").innerHTML="Check <br>out my  <br> Github!!";
   }
   else if (a=='Twitter'){
-    document.getElementById("heading").innerHTML="Tweet me!!";
+    document.getElementById("heading").innerHTML=""; 
+    document.getElementById("para").innerHTML="Tweet <br> me!!";
 
   }
   else if (a=='email'){
-    document.getElementById("heading").innerHTML="E-mail me !!";
+    document.getElementById("heading").innerHTML=""; 
+    document.getElementById("para").innerHTML="E-mail <br>me !!";
+
    }
   else{
-    document.getElementById("heading").innerHTML="social <br> links!!";
+    document.getElementById("heading").innerHTML=""; 
+    document.getElementById("para").innerHTML="social <br> links!!";
+
   } 
  }  
 function out(){
+  document.getElementById("para").innerHTML=""; 
   document.getElementById("heading").innerHTML="Hrithik MJ <br>here!!";
 }
