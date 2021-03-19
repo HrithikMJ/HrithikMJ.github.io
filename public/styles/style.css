@@ -139,6 +139,8 @@ margin: 5px 0;
 	top: 85%;
 	background: rgb(24,23,23);
 	background: linear-gradient(135deg, rgba(24,23,23,1) 0%, rgba(84,92,102,1) 100%);
+	background-size: 150% 150%;
+  -webkit-animation: move 3s ease-in-out infinite;
     border: none;
 	width: 65px;
 	height: 65px;
