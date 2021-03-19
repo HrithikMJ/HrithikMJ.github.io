@@ -21,18 +21,21 @@
 function res(a){
   if (a =='Instagram'){
     
-    document.getElementById("heading").innerHTML="Check out my  <br> instagram!!";
+    document.getElementById("heading").innerHTML="Check <br> out my  <br> instagram!!";
   }
   else if (a== 'GitHub') {
-    document.getElementById("heading").innerHTML="Check out my  <br> Github!!";
+    document.getElementById("heading").innerHTML="Check <br>out my  <br> Github!!";
   }
   else if (a=='Twitter'){
     document.getElementById("heading").innerHTML="Tweet me!!";
 
   }
-  else{
+  else if (a=='email'){
     document.getElementById("heading").innerHTML="E-mail me !!";
    }
+  else{
+    document.getElementById("heading").innerHTML="social <br> links!!";
+  } 
  }  
 function out(){
   document.getElementById("heading").innerHTML="Hrithik MJ <br>here!!";
