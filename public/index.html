@@ -8,15 +8,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/link--v2.png">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/link--v2.png">
 	
 	<title>Hrithik❤️</title>
 </head>
 
 <body>
-	
+<noscript>You need to enable JavaScript to run this app.</noscript>	
 <div class="title">
-	<h2>
+	<h2 id="heading">
 	
 		Hrithik MJ <br>here!!
 
@@ -25,35 +25,14 @@
 <button onclick="myFunction()" class="dropbtn"><i class="fas fa-globe"  ></i></button>
 <div id="head-soc" class="content">
 <ul>
-<li id="git"><a href=https://github.com/HrithikMJ target="_blank" class="btn w"><i class="fab fa-github"></i></a></li>
-<li id="ins"><a href=https://www.instagram.com/4872697468696b/ target="_blank" class="btn a"><i class="fab fa-instagram"></i></a></li>
-<li id="mail"><a href=mailto:hrithikmj003@gmail.com target="_blank" class="btn s"><i class="fas fa-at"></i></a></li>
-<li id="twit"><a href=https://twitter.com/hrithikmj69 target="_blank" class="btn d"><i class="fab fa-twitter"></i></a></li>
+<li id="git" onmouseover="res('GitHub')" onmouseout="out()" ><a href=https://github.com/HrithikMJ target="_blank" class="btn w"><i  class="fab fa-github"></i></a></li>
+<li id="ins" onmouseover="res('Instagram')" onmouseout="out()" ><a href=https://www.instagram.com/4872697468696b/ target="_blank" class="btn a"><i class="fab fa-instagram"></i></a></li>
+<li id="mail" onmouseover="res('email')" onmouseout="out()" ><a href=mailto:hrithikmj003@gmail.com target="_blank" class="btn s"><i class="fas fa-at"></i></a></li>
+<li id="twit" onmouseover="res('Twitter')" onmouseout="out()"><a href=https://twitter.com/hrithikmj69 target="_blank" class="btn d"><i class="fab fa-twitter"></i></a></li>
 </ul>
 </div>
 
-<script type="text/javascript">
-	function myFunction() {
-  	document.getElementById("head-soc").classList.toggle("show");
-   }
-   document.getElementsByClassName("fa-globe").addEventListener("click",fasd);
-   function fasd(){
-   		document.getElementById("head-soc").classList.toggle("show");
-
-   }
-   window.onclick = function(event) {
-  	if (!event.target.matches('.dropbtn')) {
-    	var dropdowns = document.getElementsByClassName("content");
-    	var i;
-    	for (i = 0; i < dropdowns.length; i++) {
-      		var openDropdown = dropdowns[i];
-      		if (openDropdown.classList.contains('show')) {
-        	openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+<script src="scripts/index.js"></script>
 <script src="/__/firebase/8.3.0/firebase-app.js"></script>
 <script src="/__/firebase/8.3.0/firebase-analytics.js"></script>
 <script src="/__/firebase/init.js"></script>
