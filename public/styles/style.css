@@ -189,10 +189,20 @@ margin: 5px 0;
 	  -webkit-animation: move 4s ease-in-out infinite;
 	}
     
-    #heading,#para {
-      font-size: 200%;
+    #heading {
+      font-size: 250%;
+      background-size: 150% 150%;
+	 cursor: pointer;
+	-webkit-animation: move 3s ease-in-out infinite;
+  	transition: 500ms;
     }
-    
+    #para {
+      font-size: 220%;
+      background-size: 150% 150%;
+	 cursor: pointer;
+	-webkit-animation: move 3s ease-in-out infinite;
+  	transition: 500ms;
+    }
     #heading:hover,#heading:focus{
     	transform: scale(1.1);
     }
