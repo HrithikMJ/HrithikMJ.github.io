@@ -38,8 +38,8 @@ function res(a){
 
    }
   else{
-    document.getElementById("heading").innerHTML=""; 
-    document.getElementById("para").innerHTML="social <br> links!!";
+    document.getElementById("heading").innerHTML="social <br> links!!"; 
+    document.getElementById("para").innerHTML="";
 
   } 
  }  
