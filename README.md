@@ -5,4 +5,4 @@ A simple personal potfolio webiste made with HTML5 , javaScript and a lot of CSS
 
 
 ## Visit
-Click [here](https://hrithikmj03.web.app/) to vist. 
+Click [here](https://hrithikmj.github.io/) to vist. 
