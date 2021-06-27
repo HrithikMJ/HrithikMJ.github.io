@@ -1,11 +1,11 @@
 function myFunction() {
   document.getElementById("head-soc").classList.toggle("show");
 }
-document.getElementById("globe").addEventListener("click", fasd);
-function fasd() {
-  document.getElementById("head-soc").classList.toggle("show");
+document.getElementsById("globe-button").addEventListener("click", myFunction);
+// function fasd() {
+//   document.getElementById("head-soc").classList.toggle("show");
 
-}
+// }
 window.onclick = function (event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("content");
