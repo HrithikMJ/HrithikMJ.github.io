@@ -1,44 +1,22 @@
-function myFunction() {
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
 
-  document.getElementById("head-soc").classList.toggle("show");
-}
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
 
-
-function res(a) {
-  if (a == 'Instagram') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Check <br> out my  <br> instagram!!";
-  }
-  else if (a == 'GitHub') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Check <br>out my  <br> Github!!";
-  }
-  else if (a == 'Twitter') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Tweet <br> me!!";
-
-  }
-  else if (a == 'email') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "E-mail <br>me !!";
-
-  }
-  else {
-    document.getElementById("heading").innerHTML = "social <br> links!!";
-    document.getElementById("para").innerHTML = "";
-
-  }
-}
-function out() {
-  document.getElementById("para").innerHTML = "";
-  document.getElementById("heading").innerHTML = "Hrithik MJ <br>here!!";
-}
+/* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
+
   {
     "particles": {
       "number": {
-        "value": 90,
+        "value": 160,
         "density": {
           "enable": true,
           "value_area": 800
@@ -63,12 +41,12 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
-        "random": false,
+        "value": 1,
+        "random": true,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
-          "opacity_min": 0.1,
+          "opacity_min": 0,
           "sync": false
         }
       },
@@ -76,14 +54,14 @@ particlesJS('particles-js',
         "value": 3,
         "random": true,
         "anim": {
-          "enable": true,
-          "speed": 40,
-          "size_min": 0.1,
+          "enable": false,
+          "speed": 4,
+          "size_min": 0.3,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -91,16 +69,16 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 1,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "bounce": false,
         "attract": {
           "enable": false,
           "rotateX": 600,
-          "rotateY": 1200
+          "rotateY": 600
         }
       }
     },
@@ -109,11 +87,11 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "bubble"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
@@ -121,18 +99,18 @@ particlesJS('particles-js',
         "grab": {
           "distance": 400,
           "line_linked": {
-            "opacity": 0.4
+            "opacity": 1
           }
         },
         "bubble": {
-          "distance": 400,
-          "size": 40,
+          "distance": 250,
+          "size": 0,
           "duration": 2,
-          "opacity": 8,
+          "opacity": 0,
           "speed": 3
         },
         "repulse": {
-          "distance": 180,
+          "distance": 400,
           "duration": 0.4
         },
         "push": {

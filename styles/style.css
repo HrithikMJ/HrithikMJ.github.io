@@ -1,4 +1,35 @@
-* body,
+/* * body,
+h2 {
+  font-family: "Poppins";
+  background: linear-gradient(
+    135deg,
+    rgba(24, 23, 23, 1) 18%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 12, 19, 1) 96%
+  );
+  display: flex;
+  background-size: 150% 150%;
+  -webkit-animation: move 3s ease-in-out infinite;
+} */
+
+canvas {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -10;
+  visibility: visible;
+}
+#particles-js,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+}
+#particles-js,
+body,
 h2 {
   font-family: "Poppins";
   background: linear-gradient(
@@ -164,9 +195,6 @@ ul i a {
 }
 
 .dropbtn {
-  position: absolute;
-  right: 60px;
-  top: 85%;
   background: rgb(24, 23, 23);
   background: linear-gradient(
     135deg,
@@ -189,7 +217,25 @@ ul i a {
   font-size: 2rem;
   animation: App-logo-spin infinite 5s linear;
 }
-
+.globe-button {
+  background-color: rgb(207, 207, 207);
+  position: absolute;
+  right: 60px;
+  top: 85%;
+  background: rgb(24, 23, 23);
+  /* background: linear-gradient(
+    135deg,
+    rgba(24, 23, 23, 1) 0%,
+    rgba(84, 92, 102, 1) 100%
+  );
+  background-size: 150% 150%;
+  -webkit-animation: move 3s ease-in-out infinite; */
+  border: none;
+  width: 65px;
+  height: 65px;
+  border-radius: 25%;
+  z-index: 2;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -216,7 +262,8 @@ ul i a {
 }*/
 
 @media only screen and (max-width: 480px) {
-  body {
+  body,
+  #particles-js {
     background: linear-gradient(
       135deg,
       rgba(24, 23, 23, 1) 18%,
