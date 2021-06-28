@@ -217,7 +217,7 @@ ul i a {
   font-size: 2rem;
   animation: App-logo-spin infinite 5s linear;
 }
-.globe-button {
+.dropbtn {
   background-color: rgb(207, 207, 207);
   position: absolute;
   right: 60px;
