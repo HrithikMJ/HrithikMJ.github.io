@@ -6,21 +6,21 @@ function myFunction() {
 
 function res(a) {
   if (a == 'Instagram') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Check <br> out my  <br> instagram!!";
+    document.getElementById("para").innerHTML = "Oh i love memes";
+    document.getElementById("heading").innerHTML = "Check <br> out my  <br> instagram!!";
   }
   else if (a == 'GitHub') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Check <br>out my  <br> Github!!";
+    document.getElementById("para").innerHTML = "Mostly active here";
+    document.getElementById("heading").innerHTML = "Check <br>out my  <br> Github!!";
   }
   else if (a == 'Twitter') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "Tweet <br> me!!";
+    document.getElementById("para").innerHTML = "";
+    document.getElementById("heading").innerHTML = "Tweet <br> me!!";
 
   }
   else if (a == 'email') {
-    document.getElementById("heading").innerHTML = "";
-    document.getElementById("para").innerHTML = "E-mail <br>me !!";
+    document.getElementById("para").innerHTML = "I'll get back soon";
+    document.getElementById("heading").innerHTML = "E-mail <br>me !!";
 
   }
   else {
@@ -30,7 +30,7 @@ function res(a) {
   }
 }
 function out() {
-  document.getElementById("para").innerHTML = "";
+  document.getElementById("para").innerHTML = "Student , FOSS enthusiast , Open source dev";
   document.getElementById("heading").innerHTML = "Hrithik MJ <br>here!!";
 }
 
@@ -45,13 +45,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#784ba0"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#784ba0"
         },
         "polygon": {
           "nb_sides": 5
@@ -85,7 +85,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#784ba0",
         "opacity": 0.4,
         "width": 1
       },
