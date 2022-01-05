@@ -40,7 +40,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150% 150%;
-  -webkit-animation: move 3s ease-in-out infinite;
+  animation: move 3s ease-in-out infinite;
   transition: 500ms;
 }
 .title h4 {
@@ -63,7 +63,7 @@ ul {
 a {
   color: #784ba0;
 }
-@-webkit-keyframes move {
+@keyframes move {
   0% {
     background-position: 0% 50%;
   }
@@ -95,7 +95,7 @@ a {
       rgba(223, 223, 223, 1) 100%
     );
     background-size: 150% 150%;
-    -webkit-animation: move 3s ease-in-out infinite;
+   animation: move 3s ease-in-out infinite;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -107,6 +107,6 @@ a {
       rgba(0, 12, 19, 1) 96%
     );
     background-size: 150% 150%;
-    -webkit-animation: move 3s ease-in-out infinite;
+    animation: move 3s ease-in-out infinite;
   }
 }
