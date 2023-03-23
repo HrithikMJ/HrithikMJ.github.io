@@ -7,11 +7,11 @@ function myFunction() {
 function res(a) {
   if (a == 'Instagram') {
     document.getElementById("para").innerHTML = "Oh i love memes";
-    document.getElementById("heading").innerHTML = "Check <br> out my  <br> instagram!!";
+    document.getElementById("heading").innerHTML = "Check out my<br>instagram!!";
   }
   else if (a == 'GitHub') {
     document.getElementById("para").innerHTML = "Mostly active here";
-    document.getElementById("heading").innerHTML = "Check <br>out my  <br> Github!!";
+    document.getElementById("heading").innerHTML = "Check out my<br>Github!!";
   }
   else if (a == 'Twitter') {
     document.getElementById("para").innerHTML = "";
