@@ -1,3 +1,4 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap"); */
 canvas {
   position: fixed;
   left: 0;
@@ -10,9 +11,8 @@ canvas {
   /* background: white; */
   height: 100%;
 }
-*{
+* {
   box-sizing: border-box;
-
 }
 body {
   font-family: "Poppins";
@@ -33,7 +33,6 @@ body {
   align-items: self-start;
   flex-direction: column;
   padding: 40px;
-
   gap: 30px;
 }
 .title {
@@ -46,7 +45,6 @@ body {
   padding: 40px;
 
   max-height: 50vh;
-  cursor: pointer;
   z-index: 99;
 }
 .title h1 {
@@ -58,7 +56,7 @@ body {
   transition: 500ms;
   height: 60%;
 }
-.title h4 {
+.title h2 {
   font-family: "poppins";
   color: #784ba0;
 }
@@ -90,11 +88,10 @@ a {
 }
 @media only screen and (max-width: 650px) {
   .body {
-padding: 20px;
+    padding: 0px;
   }
   .title {
     font-size: 120%;
-    
   }
 }
 
